@@ -271,8 +271,17 @@
     margin:45px;
     height:30px;
     width:130px;
-    background-color:#FFCB05 ;
     border:none;
+    background-color:#FFCB05; /* Initial background color */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+/* Change background color on hover */
+#sbtn:hover {
+    background-color: lightslategrey; /* Change this to your desired hover color */
 }
 #sbtn:focus{
     outline:none;
